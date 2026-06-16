@@ -1,3 +1,6 @@
+body {
+  background-color:  #add8e6;
+}
 
 /* NAVIGATION BAR */
 body {
@@ -41,24 +44,56 @@ h1 {
   color: #D2B48C;
 }
 
+h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #FFFFFF;
+}
 
 /* GRID SEGMENT */
 .parent {
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 grid-template-rows: repeat(10, 1fr);
+height: 100vh;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 4; }
-.div2 { grid-area: 1 / 4 / 2 / 11; }
-.div3 { grid-area: 2 / 1 / 5 / 4; }
-.div4 { grid-area: 2 / 4 / 5 / 11; }
-.div5 { grid-area: 5 / 1 / 7 / 11; }
-.div6 { grid-area: 7 / 1 / 9 / 11; }
-.div7 { grid-area: 9 / 1 / 11 / 11; }
+.div1 { grid-area: 1 / 1 / 2 / 11; }
+.div2 { grid-area: 2 / 1 / 8 / 4; }
+.div3 { grid-area: 2 / 4 / 8 / 11; }
+.div4 { grid-area: 8 / 1 / 9 / 11; }
+.div5 { grid-area: 9 / 1 / 10 / 11; }
+.div6 { grid-area: 10 / 1 / 11 / 11; }
 
-.div3 {
-    background-color: navy;
-  }
+.div2 {
+    background-color: #00008B
+}
+
+/* BUTTON */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {
+  background-color: #add8e6;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
