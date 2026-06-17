@@ -40,13 +40,13 @@ ul li a.active {
 /* HEADER */
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   color: #D2B48C;
 }
 
 h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #FFFFFF;
 }
 
@@ -92,8 +92,39 @@ grid-row-gap: 0px;
 .center {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 15%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00008B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #add8e6;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #D6EAF0;
+  padding: 20px;
+}
+
