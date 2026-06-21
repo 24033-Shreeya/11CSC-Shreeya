@@ -2,6 +2,10 @@ body {
   background-color:  #add8e6;
 }
 
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+
 /* NAVIGATION BAR */
 body {
   margin: 0;
@@ -40,13 +44,13 @@ ul li a.active {
 /* HEADER */
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   color: #D2B48C;
 }
 
 h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 
@@ -72,22 +76,21 @@ grid-row-gap: 0px;
 }
 
 /* BUTTON */
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.border-btn {
+ background: transparent;
+ border: 2px solid #ffffff;
+ color: #ffffff;
+ padding: 12px 24px;
+ font-size: 14px;
+ letter-spacing: 1px;
+ cursor: pointer;
 
+
+ display: block;
+ margin: 0 auto;
+ margin-top: 40px;
 }
 
-.button1 {
-  background-color: #add8e6;
-}
 
 .center {
   margin: 0;
@@ -128,15 +131,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #000000;
-   color: white;
-   text-align: center;
-}
 
 
 .centered {
@@ -154,7 +148,27 @@ input[type=submit]:hover {
   border-radius: 50%;
 }
 
-body {
-    font-family: 'Poppins';font-size: 22px;
+
+footer{
+    background:#000000;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+
+input{
+    padding:5px;
+}
+
+button{
+    padding:5px 10px;
+}
+
+
+.div4{
+p {
+  text-align: center;
+}
 }
 
