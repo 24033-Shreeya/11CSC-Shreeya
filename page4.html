@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Contact Us - The Last Straw</title>
+   <title>Contact page</title>
+
+    <!-- Linking Html to Css -->
    <link rel="stylesheet" href="style.css">
+    <!-- Linking poppins font to css -->
    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
@@ -18,8 +21,6 @@
         <input type="text" placeholder="Search...">
          <img width="3%." height="3%." src="images/logo.jpg" class="logo">
     </ul>
-
-
 </div>
 
     <div class="div2">
@@ -50,20 +51,20 @@
 <div class="container">
     <form action = "https://formspree.io/f/mgojaoqk" method="POST"</form>
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
+    <label for="fname"><b>First Name</b></label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label for="lname"><b>Last Name</b></label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
+    <label for="country"><b>Country</b></label>
     <select id="country" name="country">
       <option value="new zealand">New Zealand</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Subject</label>
+    <label for="subject"><b>Subject</b></label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
