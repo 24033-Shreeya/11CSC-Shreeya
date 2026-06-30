@@ -55,6 +55,7 @@ grid-row-gap: 0px;
 .div5 { grid-area: 8 / 1 / 10 / 11; }
 .div6 { grid-area: 10 / 1 / 11 / 11; }
 
+ /* Changing font to poppins */
 body {
     font-family: 'Poppins';
 }
@@ -103,7 +104,6 @@ input {
   color: red;
 }
 
-
 .text-block {
   position: absolute;
   bottom: 20px;
@@ -115,7 +115,6 @@ input {
 }
 
 /* What we do section */
-
 .panel-text {
     text-align: center;
 }
@@ -128,8 +127,7 @@ input {
     color:  #a0bacf;
 }
 
-/* Boxes */
-
+/* Cards */
 .panel {
   display: flex;
   justify-content: center;
@@ -156,7 +154,7 @@ input {
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* BUTTON */
+/* Button */
 .border-btn {
 background: transparent;
 border: 2px solid #ffffff;
@@ -180,7 +178,7 @@ margin-top: 40px;
  transform: translate(-50%, -50%);
 }
 
-/* make a difference panel */
+/* Make a difference panel */
 .make-a-difference{
     display: flex;
     justify-content: center;
@@ -209,6 +207,7 @@ margin-top: 40px;
 background-color: #0a355d;
 }
 
+/* footer */
 footer{
    background:#000000;
    color:white;
@@ -217,8 +216,7 @@ footer{
    padding:20px;
 }
 
-/* about */
-
+/* about page */
 .panel-text {
     gap: 30px;
 }
@@ -239,7 +237,7 @@ footer{
     border-radius: 20px;
 }
 
-/* map */
+/* map extension */
 .div5 h1 {
     text-align: center;
 }
@@ -250,7 +248,7 @@ footer{
     display: block;
 }
 
-/* contact*/
+/* contact page */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
