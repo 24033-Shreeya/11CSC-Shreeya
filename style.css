@@ -1,7 +1,7 @@
 
 /* Background colour */
 body {
-  background-color: #a0bacf;
+  background-color: #a0bacf; /* light blue background colour */
 }
 
 
@@ -19,7 +19,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #0a355d;
+  background-color: #0a355d; /* Dark blue nav background colour */
   display: flex;
   justify-content: flex-end; /* move menu to right */
 }
@@ -32,11 +32,11 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: #0a355d;
+  background-color: #0a355d; /* Dark blue when not active */
 }
 
 ul li a.active {
-  background-color: #a0bacf;
+  background-color: #a0bacf; /* Changes to light blue when active */
 }
 
 /* Grid layout */
@@ -48,12 +48,12 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 11; }
-.div2 { grid-area: 2 / 1 / 5 / 6; }
-.div3 { grid-area: 2 / 6 / 5 / 11; }
-.div4 { grid-area: 5 / 1 / 8 / 11; }
-.div5 { grid-area: 8 / 1 / 10 / 11; }
-.div6 { grid-area: 10 / 1 / 11 / 11; }
+.div1 { grid-area: 1 / 1 / 2 / 11; } /* Div 1 grid area */
+.div2 { grid-area: 2 / 1 / 5 / 6; } /* Div 2 grid area */
+.div3 { grid-area: 2 / 6 / 5 / 11; } /* Div 3 grid area */
+.div4 { grid-area: 5 / 1 / 8 / 11; } /* Div 4 grid area */
+.div5 { grid-area: 8 / 1 / 10 / 11; } /* Div 5 grid area */
+.div6 { grid-area: 10 / 1 / 11 / 11; } /* Div 6 grid area */
 
  /* Changing font to poppins */
 body {
@@ -64,17 +64,18 @@ body {
 .div2 {
     width: 100%;
     height: 50vh;
-    background-color: #48494B;
+    background-color: #48494B; /* Grey left panel */
 }
 .div2 h1 {
-    text-align: center;
-    color: #f4efe5;
+    text-align: center; /* centering the text */
+    color: #f4efe5; /* beige text colour */
 }
 .div2 p {
-    text-align: center;
-    color: #f4efe5
+    text-align: center; /* centering the text */
+    color: #f4efe5 /* beige text colour */
 }
 
+/* Seagull image */
 .seagull {
     display: block;
     margin-left: auto;
@@ -96,12 +97,13 @@ input {
   display: block;
 }
 
+/* black text box */
 .container {
   position: relative;
 }
 
 .container h3 {
-  color: red;
+  color: red; /* red text colour */
 }
 
 .text-block {
@@ -154,10 +156,10 @@ input {
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* Button */
+/* Bordered Button */
 .border-btn {
-background: transparent;
-border: 2px solid #ffffff;
+background: transparent; /* transparent button background */
+border: 2px solid #ffffff; /* white button border */
 color: #ffffff;
 padding: 12px 24px;
 font-size: 14px;
@@ -169,6 +171,7 @@ margin: 0 auto;
 margin-top: 40px;
 }
 
+/* centering button */
 .center {
  margin: 0;
  position: absolute;
@@ -204,12 +207,12 @@ margin-top: 40px;
     font-size: 60px;
 }
 .div4{
-background-color: #0a355d;
+background-color: #0a355d; /* Div 4 - dark blue background */
 }
 
 /* footer */
 footer{
-   background:#000000;
+   background:#000000; /* black background */
    color:white;
    display:flex;
    justify-content:space-around;
