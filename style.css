@@ -148,7 +148,6 @@ input {
 
 .card img {
   width: 100%;
-  border-radius: 120px 120px 0 0;
 }
 
 .card:hover {
@@ -165,6 +164,8 @@ padding: 12px 24px;
 font-size: 14px;
 letter-spacing: 1px;
 cursor: pointer;
+text-decoration: none;
+
 
 display: block;
 margin: 0 auto;
