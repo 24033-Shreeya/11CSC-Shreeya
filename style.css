@@ -253,7 +253,7 @@ footer{
 
 /* contact page */
 input[type=text], select, textarea {
-  width: 100%;
+  width: 100%;  /* extends width of contact form  */
   padding: 12px;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -261,7 +261,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #a0bacf;
+  background-color: #a0bacf; /* light blue button background */
   color: white;
   padding: 12px 20px;
   border: none;
@@ -272,9 +272,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:  #0a355d;
+  background-color:  #0a355d; /* dark blue text background */
 }
 
 .container {
-  background-color: #7393B3;
+  background-color: #7393B3; /* contact form background colour */
 }
