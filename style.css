@@ -279,3 +279,65 @@ input[type=submit]:hover {
 .container {
   background-color: #7393B3; /* contact form background colour */
 }
+
+
+/* Hovering buttons*/
+.border-btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Hovering seagull */
+.seagull:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/*Search Icon*/
+.search-icon {
+    font-size: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/*Logo rotate*/
+.logo:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/* Copyright logo */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Footer page links */
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+}
+
+footer a:hover {
+    color: #a0bacf;
+}
+
+
+
+
+
+
+
+
+
+
+
