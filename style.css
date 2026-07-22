@@ -276,10 +276,6 @@ input[type=submit]:hover {
   background-color:  #0a355d; /* dark blue text background */
 }
 
-.container {
-  background-color: #7393B3; /* contact form background colour */
-}
-
 
 /* Hovering buttons*/
 .border-btn:hover {
@@ -331,9 +327,45 @@ footer a:hover {
     color: #a0bacf;
 }
 
+.media-icons a {
+    font-size: 1.4 rem;
+}
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
 
+}
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.contact-box {
+  margin: 30px;
+  padding: 25px;
+  border: 1px solid #0a355d;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
 
 
 
