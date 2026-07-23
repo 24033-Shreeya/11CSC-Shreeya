@@ -332,31 +332,28 @@ footer a:hover {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    color: white;
+    background: transparent;
     text-decoration: none;
-
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.fa-facebook:hover {
+    color: #1877F2;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.fa-twitter:hover {
+    color: #1DA1F2;
 }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+.fa-instagram:hover {
+    color: #E4405F;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+.fa-youtube:hover {
+    color: #FF0000;
 }
 
 .contact-box {
@@ -366,6 +363,7 @@ footer a:hover {
   border-radius: 10px;
   background: #f2f2f2;
 }
+
 
 
 
