@@ -102,7 +102,7 @@ input {
   position: relative;
 }
 
-.container h3 {
+.container h2 {
   color: red; /* red text colour */
 }
 
@@ -125,7 +125,7 @@ input {
     color: white;
 }
 
-.panel-text h3 {
+.panel-text h2 {
     color:  #a0bacf;
 }
 
@@ -364,6 +364,13 @@ footer a:hover {
   background: #f2f2f2;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex: 1;
+    justify-content: flex-end;
+}
 
 
 
