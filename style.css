@@ -178,7 +178,6 @@ margin-top: 40px;
  position: absolute;
  top: 55%;
  left: 15%;
- -ms-transform: translate(-50%, -50%);
  transform: translate(-50%, -50%);
 }
 
@@ -328,7 +327,7 @@ footer a:hover {
 }
 
 .media-icons a {
-    font-size: 1.4 rem;
+    font-size: 1.4rem;
 }
 
 .fa {
@@ -371,6 +370,54 @@ footer a:hover {
     flex: 1;
     justify-content: flex-end;
 }
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+
+    /* Stack navigation */
+    ul {
+        flex-direction: column;
+    }
+
+    /* Make images fit the screen */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Stack cards */
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* Stack the Make a Difference section */
+    .make-a-difference {
+        flex-direction: column;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
